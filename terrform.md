@@ -12,9 +12,10 @@ terraform plan #will simulate the written code
 
 ```bash
 terraform apply # will apply the written code
+terraform apply -auto-approve # to bypass "yes to apply"
 ```
 
-```tf
+```Terraform
 provider "aws" {
 #   region = 
 
