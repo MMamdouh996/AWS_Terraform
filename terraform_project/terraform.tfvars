@@ -5,7 +5,7 @@ route_table_in = "0.0.0.0/0"
 ec2_ami = "ami-06878d265978313ca"
 ec2_type = "t2.micro"
 key_pair = "lab4"
-
+Security_Groups = ["tf-public-SG","tf-private-SG"]
 subnet_cidrs = ["10.0.1.0/28", "10.0.2.0/28"]
 
 # variable "subnet_cidrs" {

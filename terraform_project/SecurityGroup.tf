@@ -1,5 +1,5 @@
 resource "aws_security_group" "tf-public-instance-SG" {
-  name        = "public-EC2"
+  name        = var.Security_Groups[0]
   description = "Allow TLS inbound traffic"
   vpc_id      = aws_vpc.tf_vpc.id
 
@@ -30,12 +30,12 @@ resource "aws_security_group" "tf-public-instance-SG" {
     
 
   tags = {
-    Name = "public-EC2-SG"
+    Name = "Public-EC2-SG"
   }
 }
 
 resource "aws_security_group" "tf-private-instance-SG" {
-  name        = "private-EC2"
+  name        = var.Security_Groups[1]
   description = "Allow TLS inbound traffic"
   vpc_id      = aws_vpc.tf_vpc.id
 
@@ -64,6 +64,6 @@ resource "aws_security_group" "tf-private-instance-SG" {
     
 
   tags = {
-    Name = "public-EC2-SG"
+    Name = "Private-EC2-SG"
   }
 }

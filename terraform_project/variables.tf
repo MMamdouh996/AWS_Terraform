@@ -6,6 +6,10 @@ variable "key_pair" {
   type = string
   
 }
+variable "Security_Groups" {
+  type = list(string)
+  
+}
 variable "route_income" {
   type = list(string)
 }
