@@ -1,2 +1,2 @@
 # Terraform_Demo
-![05](https://user-images.githubusercontent.com/117544860/213556324-fb510965-0a18-4587-a6c5-b1cda0d76287.png)
+![Proof of Work](https://user-images.githubusercontent.com/117544860/214235246-b5ea9fdb-70c0-4b53-9d3e-aa289fbb3f94.png)
